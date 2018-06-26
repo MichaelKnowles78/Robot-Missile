@@ -53,6 +53,8 @@ namespace Robot_Missile
                 Console.WriteLine("YOU BLEW IT");
                 Console.WriteLine("THE CORRECT CODE WAS " + code);
             }
+
+            Console.ReadKey(true);
         }
     }
 }
